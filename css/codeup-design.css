@@ -1,9 +1,83 @@
 body {
     background-color: #e6e6e6;
 }
-
+ div.tall-row {
+     height:auto;
+     width: auto;
+ }
 
 nav img {
     height: 105px;
     width: 105px;
+    position: absolute;
+    align-self: center;
+
+}
+main img {
+    margin: 0 auto;
+    height: 200px;
+    width: 300px;
+}
+
+nav a {
+    color:black;
+    font-family: "abel", sans-serif;
+}
+
+.abel {
+    font-family: "abel", sans-serif;
+}
+
+.anton {
+    font-family: "anton", sans-serif;
+}
+
+.design {
+    background-color: #e6563b;
+    border: 9px solid white;
+    border-radius: 200%;
+    height: 200px;
+    width: 200px;
+}
+
+.develop {
+    background-color: #dea03d;
+    border: 9px solid white;
+    border-radius: 200%;
+    height: 200px;
+    width: 200px;
+}
+
+.support {
+    background-color: #7cb06c;
+    border: 9px solid white;
+    border-radius: 200%;
+    height: 200px;
+    width: 200px;
+}
+
+.host {
+    background-color: #00aba9;
+    border: 9px solid white;
+    border-radius: 200%;
+    height: 200px;
+    width: 200px;
+}
+
+.d {
+    background-color: #e6563b;
+    height: 5px;
+    width: 5px;
+}
+
+.dev {
+    background-color: #dea03d;
+}
+
+.s {
+    background-color: #7cb06c;
+}
+
+.h {
+    background-color: #00aba9;
 }
