@@ -1,7 +1,39 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     list-style: none;
+    background-color: white;
+    opacity: .8;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+h1 {
+    font-family: "luckiest guy", sans-serif;
+    color: #ff2a00;
+    background-color: white;
+    opacity: .8;
+    border-radius: 10px;
+    padding: 12px 5px 0 5px;
+    /*margin-top: 5px;*/
+}
+
+a {
+
+    font-family: "sigmar one", sans-serif;
+    color: #00b5ec;
+}
+
+body {
+    background-image: url("../img/erik-mclean-8SeJUmfahu0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
 }
